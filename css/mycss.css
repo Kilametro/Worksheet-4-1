@@ -1,0 +1,76 @@
+body{
+	background-color: lightblue;
+	background-image: url("../img/back.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border: 2px solid lightblue;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	color: #ADD8E6;
+}
+.round-image{
+	border-radius: 50%;
+}
+.round-image img{
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #C0C0C0
+}
+a{
+	text-decoration: none;
+	color: #C0C0C0;
+}
+a:hover{
+	color: lightgray;
+	border: 2px solid dimgray;
+	background-color: gray;
+	border-radius: 8px;
+}
+h3{
+	border: 2px solid gray;
+	background-color: gray;
+	color: #D3D3D3;
+	text-align: left;
+	margin: 0px 7px 0px 7px;
+	font-family: arial;
+
+}
+p{
+	text-indent: 50px;
+	text-align: justify;
+	color: #ADD8E6;
+	margin: 10px 10px 10px 10px;
+}
+h4{
+	text-align: left;
+	padding: 25px 0px 0px 0px;
+	margin: 0px 7px 0px 7px;
+	font-family: arial;
+}
+table{
+	display: inline-block;
+	border-collapse: collapse;
+}
+th{
+	border-color: skyblue;
+}
+th, td{	
+	width: 100%;
+	border: 1px solid gold;
+	padding: 8px;
+	text-align: left;
+}
+ul.expertise{
+	text-align: left;
+	list-style-type: square;
+}
+.application{
+	text-align: left;
+	list-style-type: decimal;
+}
+
